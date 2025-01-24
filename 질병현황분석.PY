@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 plt.rc('font',family='malgun gothic')
 
 def dataopen():
-    path = 'data/'
+    path = 'data/'  
     file_list = os.listdir(path)
     # file_list
 
